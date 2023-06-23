@@ -1,0 +1,123 @@
+*{
+    box-sizing:border-box;
+    text-decoration:none;
+    font-family:arial;
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    margin-left:5%;
+    margin-top:2%;
+}
+
+.cabecalho {
+    display:flex;
+    justify-content:space-between;
+    gap:100px;
+    width:1095px;
+    height:45px;
+}
+
+.top-start{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap:38px;
+    width:659.49px;
+    height:45px;
+}
+
+#logo {
+    width:92px;
+    height:30px;
+}
+
+.search {
+    display:flex;
+    align-items:center;
+    width:529.49px;
+    height:45px;
+    border:solid 1px #fff;
+    border-radius:24px;
+    box-shadow:0px 2px 5px #403C43;
+}
+
+#txt-user {
+    width: 381px;
+    height:39px;
+    outline:none;
+    box-shadow:none;
+    border-color:transparent;
+    margin-left:26px;
+}
+
+.box-icon {
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    width:112.49px;
+    height:29px;
+}
+
+.box-close {
+    display:flex;
+    align-items:center;
+    width:36px;
+    height:29px;
+    padding-right:12px;
+    border-right:solid 1px #DFE1E5;
+}
+
+#close {
+    width:24px;
+    height:24px;
+}
+
+.box-icon2 {
+    display:flex;
+    align-items:center;
+    gap:10px;
+    width:68.49px;
+    height:24px;
+    margin-left:5px;
+}
+
+#mic {
+    width:24px;
+    height:24px;
+}
+
+#lupa {
+    width:20px;
+    height:20px;
+}
+
+.top-end {
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    gap:10px 8px;
+    margin-left:410px;
+}
+
+#conf {
+    width:24px;
+    height:24px;
+}
+
+#menu {
+    width:24px;
+    height:24px;
+}
+
+#bt-top {
+    width:93px;
+    height:34px;
+    border-radius:4px;
+    background-color:#1a73e8;
+    color:#fff;
+    outline:none;
+    box-shadow:none;
+    border-color:transparent;
+}

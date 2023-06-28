@@ -134,20 +134,17 @@ body {
     width:544px;
     height:52px;
     gap:1px;
-    border:solid 1px #1a73e8;
 }
 
 #box-all {
     display:flex;
     flex-direction:row;
-    justify-content:center;
     align-items:center;
     gap:5px;
     width:67px;
     height:52px;
     padding-right:12px;
     padding-left:10px;
-    border:solid 1px #1a73e8;
 }
 
 #box-all img {
@@ -164,14 +161,12 @@ body {
 #box-new {
     display:flex;
     flex-direction:row;
-    justify-content:center;
     align-items:center;
     gap:5px;
     width:87px;
     height:52px;
     padding-right:12px;
-    padding-left:10px;
-    border:solid 1px #1a73e8;
+    padding-left:5px;
 }
 
 #box-new img {
@@ -188,14 +183,12 @@ body {
 #box-img {
     display:flex;
     flex-direction:row;
-    justify-content:center;
     align-items:center;
     gap:5px;
-    width:97px;
+    width:115px;
     height:52px;
     padding-right:12px;
     padding-left:10px;
-    border:solid 1px #1a73e8;
 }
 
 #box-img img {
@@ -212,14 +205,12 @@ body {
 #box-vid {
     display:flex;
     flex-direction:row;
-    justify-content:center;
     align-items:center;
     gap:5px;
     width:97px;
     height:52px;
     padding-left:10px;
     padding-right:12px;
-    border:solid 1px #1a73e8;
 }
 
 #box-vid img {
@@ -236,14 +227,12 @@ body {
 #box-shopp {
     display:flex;
     flex-direction:row;
-    justify-content:center;
     align-items:center;
     gap:5px;
-    width:111px;
+    width:121px;
     height:52px;
     padding-left:10px;
     padding-right:12px;
-    border:solid 1px #1a73e8;
 }
 
 #box-shopp img {
@@ -260,14 +249,11 @@ body {
 #box-more {
     display:flex;
     flex-direction:row;
-    justify-content:center;
     align-items:center;
     gap:5px;
     width:83px;
     height:52px;
-    padding-left:10px;
     padding-right:12px;
-    border:solid 1px #1a73e8;
 }
 
 #box-more img {
@@ -279,4 +265,8 @@ body {
     width:16px;
     height:16px;
     color:#5F6368;
+}
+
+.a-hover:hover {
+    border-bottom:solid 5px #1a73e8;
 }
